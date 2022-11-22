@@ -1,0 +1,16 @@
+.section{
+    margin: 50px 300px;
+    &__layout{
+        padding: 20px;
+        &__flex{
+            display: flex;
+        }
+    }
+}
+*{
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+}
+
+

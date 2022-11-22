@@ -1,0 +1,21 @@
+.confirm-section {
+    flex: 1.5;
+    margin-left: 20px;
+
+    td:last-child {
+        text-align: center;
+    }
+
+    &__icon {
+        font-size: 1.2rem;
+        cursor: pointer;
+
+        &--checked {
+            color: green;
+        }
+
+        &--delete {
+            color: red;
+        }
+    }
+}
